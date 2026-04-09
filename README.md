@@ -1,29 +1,29 @@
-# 🚀 AWS Cost Optimization System (Serverless DevOps Project)
+#  AWS Cost Optimization System (Serverless DevOps Project)
 
-## 📌 Overview
+##  Overview
 
 This project implements an automated AWS cost optimization system using serverless architecture. It monitors EC2 instances, detects idle resources based on CPU utilization, and automatically stops them to reduce unnecessary cloud costs.
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
 EventBridge → Lambda → CloudWatch → EC2 → SNS → Email
 
 ---
 
-## ⚙️ Features
+##  Features
 
-* 🔍 Monitor running EC2 instances
-* 🧠 Detect idle instances (CPU < 5%)
-* 🛑 Automatically stop unused instances
-* 🔐 Tag-based filtering (Environment = Test)
-* 📧 Daily summary email alerts
-* 💰 Estimated cost savings calculation
+*  Monitor running EC2 instances
+*  Detect idle instances (CPU < 5%)
+*  Automatically stop unused instances
+*  Tag-based filtering (Environment = Test)
+*  Daily summary email alerts
+*  Estimated cost savings calculation
 
 ---
 
-## 🛠️ AWS Services Used
+##  AWS Services Used
 
 * AWS Lambda
 * Amazon EC2
@@ -34,7 +34,7 @@ EventBridge → Lambda → CloudWatch → EC2 → SNS → Email
 
 ---
 
-## 🔄 Workflow
+##  Workflow
 
 1. EventBridge triggers Lambda daily
 2. Lambda fetches running EC2 instances
@@ -45,7 +45,7 @@ EventBridge → Lambda → CloudWatch → EC2 → SNS → Email
 
 ---
 
-## 📧 Sample Output
+##  Sample Output
 
 Daily EC2 Cost Optimization Report
 
@@ -55,7 +55,7 @@ Estimated Savings (24h): $0.28
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Lambda Function
 
@@ -80,13 +80,13 @@ Estimated Savings (24h): $0.28
 
 ---
 
-## 💼 Use Case
+##  Use Case
 
 Helps organizations automatically reduce AWS costs by identifying and stopping idle cloud resources.
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Add dashboard (CloudWatch / Grafana)
 * Extend to RDS and S3 optimization
@@ -95,6 +95,6 @@ Helps organizations automatically reduce AWS costs by identifying and stopping i
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 Meghaa
